@@ -53,7 +53,7 @@ def main():
         # ------------------------------
         # (3) RC Car 서보 제어
         # ------------------------------
-        drive.set_steering(pred_angle)
+        drive.set_servo_angle(pred_angle)
 
         # ------------------------------
         # (4) 디버그 출력
