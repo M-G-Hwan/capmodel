@@ -19,7 +19,7 @@ def train():
     # 1. Hyperparameters
     # =====================
     csv_filename = "balanced_data_labels.csv"
-    dataset_root = "datacollector/dataset_modified"
+    dataset_root = "datacollector/dataset"
     num_epochs = 20
     batch_size = 128
     learning_rate = 5e-4
